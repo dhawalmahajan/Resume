@@ -1,13 +1,17 @@
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage{multicol}
+\usepackage{fontawesome5}
+\usepackage[default]{lato}
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
 \name{Dhawal Mahajan} % Your name
-% You can merge both of these into a single line, if you do not have a website.
 \address{  Mumbai,India,401303 \\ +91 7709009791} 
-\address{\href{mailto:dhawal.mahajan1@gmail.com}{dhawal.mahajan1@gmail.com} \\ \href{https://www.linkedin.com/in/dhawal-mahajan-7ba1ba109}{Linked in - dhawal mahajan} \\ \href{https://github.com/dhawalmahajan}{Github : dhawalmahajan}
-}%
+\address{\faIcon{envelope}\hspace{0.1cm}\href{mailto:dhawal.mahajan1@gmail.com}{dhawal.mahajan1@gmail.com} \\ 
+\faLinkedin \hspace{0.1cm} \href{https://www.linkedin.com/in/dhawal-mahajan-7ba1ba109}{dhawal mahajan} \\ 
+\faGithub \hspace{0.1cm} \href{https://github.com/dhawalmahajan}{dhawalmahajan}
+}
  
 \begin{document}
 %----------------------------------------------------------------------------------------
@@ -24,15 +28,19 @@ Looking forward to working with clients, business managers and technical teams f
 %----------------------------------------------------------------------------------------
 % SKILLS
 %----------------------------------------------------------------------------------------
+
+
 \begin{rSection}{SKILLS}
 \begin{multicols}{3}  
 \begin{itemize}
     \item iOS
     \item Swift/Objective-C
-    \item Unit testing abilities
-    \item RESTful API integration
+    \item Unit/UI testing 
+    \item RESTful API
     \item SwiftUI framework
     \item Combine framework
+    \item Git
+    \item Jira
     \item C++
     \item Agile
     \item Core Data 
@@ -47,6 +55,9 @@ Looking forward to working with clients, business managers and technical teams f
 \end{multicols}
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+% WORK HISTORY
+%----------------------------------------------------------------------------------------
 \begin{rSection}{WORK HISTORY}
 
 \textbf{iOS Developer SDE-1} \hfill 10/2021 - 09/2023\\
@@ -56,7 +67,7 @@ Looking forward to working with clients, business managers and technical teams f
      \item Project: \textbf{Moneycontrol}
      \item Moneycontrol App store Link: \href{https://apps.apple.com/in/app/moneycontrol-marketsnews/id408654600}{Moneycontrol}
      \item Enhanced user experience by designing and implementing intuitive user interfaces for iOS applications.
-    \item Reduced app crashes by optimizing code and conducting rigorous debugging sessions.
+    \item Developed and Maintained Clevertap push notification deeplinking,event integration.
     \item Collaborated with cross-functional teams to develop high-quality iOS applications according to client requirements.
     \item Led the integration of third-party libraries into existing codebases for enhanced functionality and improved user experience.
  \end{itemize}
@@ -70,7 +81,7 @@ Looking forward to working with clients, business managers and technical teams f
       \item Foodshots App store Link: \href{https://apps.apple.com/us/app/foodshots-daily-newsupdate/id1459858249}{Foodshots}
       \item Hygiene Quotient App store Link: \href{https://apps.apple.com/in/app/hygiene-quotient/id1535190924?ignmpt=uo%3D4}{Hygiene Quotient}
       
-     \item Enhanced user experience by designing and implementing intuitive user interfaces for iOS applications.
+     \item Created and maintained  apps from scratch with VIPER and MVVM architecture.
     \item Improved application performance by implementing efficient algorithms and optimizing data structures.
     \item Built custom UI components to provide visually appealing and interactive experiences for users.
     \item Led the integration of third-party libraries into existing code bases for enhanced functionality and improved user experience.
@@ -91,7 +102,7 @@ Looking forward to working with clients, business managers and technical teams f
  \end{itemize}
 
 \textbf{Jr.iOS Developer} \hfill 01/2019 - 12/2019\\
-    Airit Media LLp \hfill \textit{Mumbai, MH}
+    Airit Media LLP \hfill \textit{Mumbai, MH}
  \begin{itemize}
     \itemsep -3pt {} 
     \item Project: \textbf{Mi Airit (Chat Application)}
@@ -131,6 +142,9 @@ Final Grade: 69.60\%
 
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
 \begin{rSection}{CERTIFICATIONS} 
 \begin{itemize}
     \itemsep -3pt {} 
@@ -142,6 +156,8 @@ Final Grade: 69.60\%
  \end{itemize}
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+%	Extra-Curricular Activities
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Extra-Curricular Activities} 
 
