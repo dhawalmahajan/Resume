@@ -1,176 +1,182 @@
+
 \documentclass{resume} % Use the custom resume.cls style
+
+% ================== PACKAGES ==================
 \usepackage{multicol}
 \usepackage{fontawesome5}
-% \usepackage[default]{lato}
 \usepackage{mathptmx}
-\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
-\usepackage{xcolor} % Add this line to use the xcolor package
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+\usepackage{xcolor} % Colors
+% \usepackage[hidelinks]{hyperref} % For links
+% ================== COLORS & COMMANDS ==================
 \definecolor{lightgray}{gray}{0.5}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
 \name{Dhawal Mahajan} % Your name
-\address{\faIcon{map-marker-alt}\hspace{0.1cm}Jalgaon, India, 425001 \hspace{0.1cm} \faIcon{mobile-alt}\hspace{0.1cm}\href{tel:+917709009791}{+91 7709009791}}
-\address{\faIcon{envelope}\hspace{0.1cm}\href{mailto:dhawal.mahajan1@gmail.com}{dhawal.mahajan1@gmail.com} 
-\hspace{0.1cm}\faLinkedin \hspace{0.1cm} \href{https://www.linkedin.com/in/dhawal-mahajan-7ba1ba109}{dhawal mahajan} 
-\hspace{0.1cm}\faGithub \hspace{0.1cm} \href{https://github.com/dhawalmahajan}{dhawalmahajan}
-\hspace{0.1cm}\faIcon{globe}\hspace{0.1cm}\href{https://dhawal-mahajan.vercel.app/}{https://dhawal-mahajan.vercel.app/}
-}
+
+% Use only icons/commands that exist in fontawesome5
+\address{\faIcon{map-marker-alt}\hspace{0.1cm}Jalgaon, India, 425001
+  \hspace{0.3cm} \faIcon{mobile-alt}\hspace{0.1cm}\href{tel:+917709009791}{+91 7709009791}}
+
+\address{\faIcon{envelope}\hspace{0.1cm}\href{mailto:dhawal.mahajan1@gmail.com}{dhawal.mahajan1@gmail.com}
+  \hspace{0.3cm}\faIcon{linkedin}\hspace{0.1cm}\href{https://www.linkedin.com/in/dhawal-mahajan-7ba1ba109}{dhawal mahajan}
+  \hspace{0.3cm}\faIcon{github}\hspace{0.1cm}\href{https://github.com/dhawalmahajan}{dhawalmahajan}
+  \hspace{0.3cm}\faIcon{globe}\hspace{0.1cm}\href{https://dhawal-mahajan.vercel.app/}{https://dhawalmahajan.vercel.app/}}
  
 \begin{document}
-%----------------------------------------------------------------------------------------
-%	OBJECTIVE
-%----------------------------------------------------------------------------------------
 
-
+%----------------------------------------------------------------------------------------
+%   OBJECTIVE
+%----------------------------------------------------------------------------------------
 
 {Experienced iOS developer with 5+ years of expertise in Swift and Objective-C, dedicated to building innovative, user-centric mobile applications. Seeking to leverage technical skills and problem-solving abilities to contribute to a dynamic development team and drive impactful solutions.}
-
-
 
 %----------------------------------------------------------------------------------------
 % SKILLS
 %----------------------------------------------------------------------------------------
 
-
 \begin{rSection}{SKILLS}
-\textbf{Programming Languages:} Swift,Objective C,C++,Dart,Kotlin,Javascript,Rust \newline
-\textbf{Databases:} Core data,SQLite,Realm,Mongo DB, Postgress \newline
-\textbf{Architectures:} MVC,MVVM,VIPER,Clean Architecture \newline
-\textbf{Tools:} XCode,Android studio,Visual Studio Code, Postman,Charles Proxy,Git,Docker \newline
-\textbf{Technologies:}Firebase, Maps,Clevertap,Unit/UI Testing,Ads Integration,RESTful API \newline
-\textbf{Frameworks:} SwiftUI, Combine, UIKit,Cocoa, Cocoa Touch,React Native,Android,Flutter,Kotlin Multiplatform 
+\textbf{Programming Languages:} Swift, Objective-C, C++, Dart, Kotlin, JavaScript, Rust \\[0.2em]
+\textbf{Databases:} Core Data, SQLite, Realm, MongoDB, PostgreSQL \\[0.2em]
+\textbf{Architectures:} MVC, MVVM, VIPER, Clean Architecture \\[0.2em]
+\textbf{Tools:} Xcode, Android Studio, Visual Studio Code, Postman, Charles Proxy, Git, Docker \\[0.2em]
+\textbf{Technologies:} Firebase, Maps, CleverTap, Unit/UI Testing, Ads Integration, RESTful API \\[0.2em]
+\textbf{Frameworks:} SwiftUI, Combine, UIKit, Cocoa, Cocoa Touch, React Native, Android, Flutter, Kotlin Multiplatform
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 % WORK HISTORY
 %----------------------------------------------------------------------------------------
-\begin{rSection}{WORK HISTORY}
-\textbf{iOS Developer} \hfill August 2024 - March 2025\\
- LendenClub \hfill \textit{Mumbai, MH}
- \begin{itemize}
-    \itemsep -3pt {} 
-     \item Project: \textbf{LendenClub}
-     \item LendenClub App store Link: \href{https://apps.apple.com/in/app/lendenclub-p2p-lending/id1389013846}{LendenClub}
-    \item Implemented and optimized \textbf{3+ design patterns} (Strategy, Singleton, Factory,etc) to enhance app scalability and maintainability, \textbf{reducing crash rates by 30\% and increase performance by 20\%.}
-    \item Developed and maintained offline data storage using Core Data for user behavior log, \textbf{improving user tracking efficiency by 40\% and optimizing app performance by 25\%.}
-    \item \textbf{Functionality:} MVVM, Clevertap,Core Data,Multi threading, Networking, Analytics
- \end{itemize}
-\textbf{iOS Developer SDE-1} \hfill October 2021 - October 2023\\
- Network 18 \hfill \textit{Mumbai, MH}
- \begin{itemize}
-    \itemsep -3pt {} 
-     \item Project: \textbf{Moneycontrol}
-     \item Moneycontrol App store Link: \href{https://apps.apple.com/in/app/moneycontrol-marketsnews/id408654600}{Moneycontrol}
-     \item Designed and implemented intuitive UI/UX  for iOS applications using Swift,Objective C,Swift UI,\textbf{increasing user engagement by 23\%.}
-    \item Integrated and maintained CleverTap push notifications, deep linking, and event tracking, \textbf{improving user retention by 25\% and automating 100K+ push notifications monthly}.
-    \item \textbf{Functionality:} MVVM, Clevertap, Agile Process, Deep Linking and push notifications,Multi threading, Networking
- \end{itemize}
 
-\textbf{iOS Developer} \hfill July 2020 - October 2021\\
- Equinox Labs \hfill \textit{Mumbai, MH}
- \begin{itemize}
-    \itemsep -3pt {} 
-     \item Project:\textbf{ Nutripedia, Hygiene Quotient, Foodshots}
-     \item Nutripedia App store Link: \href{https://apps.apple.com/us/app/id1527966157}{Nutripedia}
-      \item Foodshots App store Link: \href{https://apps.apple.com/us/app/foodshots-daily-newsupdate/id1459858249}{Foodshots}
-      \item Hygiene Quotient App store Link: \href{https://apps.apple.com/in/app/hygiene-quotient/id1535190924?ignmpt=uo%3D4}{Hygiene Quotient}
-      
-     \item Created and maintained  apps from scratch with VIPER and MVVM architecture \textbf{improving scalability} and \textbf{reducing maintenance efforts by 40\%.}
+\begin{rSection}{WORK HISTORY}
+
+\textbf{iOS Developer} \hfill August 2024 -- March 2025\\
+LendenClub, Mumbai
+\begin{itemize}
+    \itemsep -3pt
+    \item Project: \textbf{LendenClub}
+    \item LendenClub App Store Link: \href{https://apps.apple.com/in/app/lendenclub-p2p-lending/id1389013846}{LendenClub}
+    \item Implemented and optimized \textbf{3+ design patterns} (Strategy, Singleton, Factory, etc.) to enhance app scalability and maintainability, \textbf{reducing crash rates by 30\% and increasing performance by 20\%.}
+    \item Developed and maintained offline data storage using Core Data for user behavior logs, \textbf{improving user tracking efficiency by 40\% and optimizing app performance by 25\%.}
+    \item \textbf{Functionality:} MVVM, CleverTap, Core Data, multithreading, networking, analytics
+\end{itemize}
+
+\textbf{iOS Developer SDE-1} \hfill October 2021 -- October 2023\\
+Network18, Mumbai
+\begin{itemize}
+    \itemsep -3pt
+    \item Project: \textbf{Moneycontrol}
+    \item Moneycontrol App Store Link: \href{https://apps.apple.com/in/app/moneycontrol-marketsnews/id408654600}{Moneycontrol}
+    \item Designed and implemented intuitive UI/UX for iOS applications using Swift, Objective-C, SwiftUI, \textbf{increasing user engagement by 23\%.}
+    \item Integrated and maintained CleverTap push notifications, deep linking, and event tracking, \textbf{improving user retention by 25\% and automating 100K+ push notifications monthly}.
+    \item \textbf{Functionality:} MVVM, CleverTap, Agile process, deep linking and push notifications, multithreading, networking
+\end{itemize}
+
+\textbf{iOS Developer} \hfill July 2020 -- October 2021\\
+Equinox Labs, Mumbai
+\begin{itemize}
+    \itemsep -3pt
+    \item Project: \textbf{Nutripedia, Hygiene Quotient, Foodshots}
+    \item Nutripedia App Store Link: \href{https://apps.apple.com/us/app/id1527966157}{Nutripedia}
+    \item Foodshots App Store Link: \href{https://apps.apple.com/us/app/foodshots-daily-newsupdate/id1459858249}{Foodshots}
+    \item Hygiene Quotient App Store Link: \href{https://apps.apple.com/in/app/hygiene-quotient/id1535190924?ignmpt=uo%3D4}{Hygiene Quotient}
+    \item Created and maintained apps from scratch with VIPER and MVVM architecture, \textbf{improving scalability} and \textbf{reducing maintenance efforts by 40\%.}
     \item Built custom UI components to provide visually appealing and interactive experiences, enhancing app aesthetics and \textbf{improving user interaction time by 30\%.}
-    \item \textbf{Functionality:} Realm db, MVVM, VIPER Architecture,Multi threading, Networking
-    
- \end{itemize}
- \newpage
-\textbf{iOS Developer} \hfill February 2020 - March 2020\\
-    Matchpoint GPS \hfill \textit{Mumbai, MH}
- \begin{itemize}
-    \itemsep -3pt {} 
-    \item Project: \textbf{Matchpoint GPS (GPS tracking Application)}
-    \item App store Link: \href{https://apps.apple.com/in/app/matchpointgps/id985079561}{Matchpoint GPS}
+    \item \textbf{Functionality:} Realm DB, MVVM, VIPER architecture, multithreading, networking
+\end{itemize}
+
+\newpage
+
+\textbf{iOS Developer} \hfill February 2020 -- March 2020\\
+Matchpoint GPS, Mumbai
+\begin{itemize}
+    \itemsep -3pt
+    \item Project: \textbf{Matchpoint GPS (GPS tracking application)}
+    \item App Store Link: \href{https://apps.apple.com/in/app/matchpointgps/id985079561}{Matchpoint GPS}
     \item Optimized code and conducted thorough debugging, \textbf{reducing app crash rate by 6\%} and improving stability.
     \item Wrote modular, scalable, and testable code, improving app performance and \textbf{reducing technical debt by 5\%}, ensuring long-term maintainability.
     \item Created \textbf{3+ reusable code modules}, \textbf{reducing development time for future projects by 4\%} and accelerating feature deployment.
-    \item \textbf{Functionality:} Core Data, MapmyIndia sdk,Multi threading, Networking
- \end{itemize}
+    \item \textbf{Functionality:} Core Data, MapmyIndia SDK, multithreading, networking
+\end{itemize}
 
-\textbf{Jr.iOS Developer} \hfill January 2019 - December 2019\\
-    Airit Media LLP \hfill \textit{Mumbai, MH}
- \begin{itemize}
-    \itemsep -3pt {} 
-    \item Project: \textbf{Mi Airit (Chat Application)}
-    \item App store Link: \href{https://itunes.apple.com/in/app/airit/id1274443050?mt=8}{ Mi Airit}
-    \item Created and maintained c++ module for fetching ios device details,enhancing API-level security and ensuring \textbf{90\% data protection compliance}.
+\textbf{Jr. iOS Developer} \hfill January 2019 -- December 2019\\
+Airit Media LLP, Mumbai
+\begin{itemize}
+    \itemsep -3pt
+    \item Project: \textbf{Mi Airit (Chat application)}
+    \item App Store Link: \href{https://itunes.apple.com/in/app/airit/id1274443050?mt=8}{Mi Airit}
+    \item Created and maintained C++ module for fetching iOS device details, enhancing API-level security and ensuring \textbf{90\% data protection compliance}.
     \item Implemented optimized memory management techniques using Xcode Instruments, \textbf{reducing app memory footprint by 35\%} and \textbf{improving performance by 25\%}.
-    \item Provided real time data updates required for chat appliucation and used SQlite core framework, \textbf{reducing data sync latency by 40\%} and ensuring seamless user experience. 
-    \item \textbf{Functionality:} SQLite, Facebook Ads, Web Services, C++, UI Designing,
-    Autolayout, FCM, Push Notification, App optimization using
-    objective c and swift,Multi threading, Networking
- \end{itemize}
- \textbf{iOS Developer} \hfill October 2018 - December 2018\\
-    Synergy Technology Services \hfill \textit{Mumbai, MH}
- \begin{itemize}
-    \itemsep -3pt {} 
-   \item  Collaborated with senior developers, participating in over \textbf{10 code reviews} to improve code quality and maintainability.
-\item Developed and \textbf{tested 5+ sample modules} to strengthen understanding of iOS frameworks, including UIKit and Core Data.
-\item Enhanced app UI responsiveness by optimizing layouts, \textbf{reducing view load times by approximately 20\%.}
-\item Assisted in debugging and troubleshooting, helping \textbf{resolve 15+ issues} during development sprints.
-\item Applied best practices in mobile architecture, contributing to a \textbf{30\% reduction in code errors} during team reviews.
- \end{itemize}
-\end{rSection} 
+    \item Provided real-time data updates required for the chat application and used SQLite core framework, \textbf{reducing data sync latency by 40\%} and ensuring seamless user experience.
+    \item \textbf{Functionality:} SQLite, Facebook Ads, web services, C++, UI designing,
+    autolayout, FCM, push notification, app optimization using
+    Objective-C and Swift, multithreading, networking
+\end{itemize}
+
+\textbf{iOS Developer} \hfill October 2018 -- December 2018\\
+Synergy Technology Services, Mumbai
+\begin{itemize}
+    \itemsep -3pt
+    \item Collaborated with senior developers, participating in over \textbf{10 code reviews} to improve code quality and maintainability.
+    \item Developed and \textbf{tested 5+ sample modules} to strengthen understanding of iOS frameworks, including UIKit and Core Data.
+    \item Enhanced app UI responsiveness by optimizing layouts, \textbf{reducing view load times by approximately 20\%.}
+    \item Assisted in debugging and troubleshooting, helping \textbf{resolve 15+ issues} during development sprints.
+    \item Applied best practices in mobile architecture, contributing to a \textbf{30\% reduction in code errors} during team reviews.
+\end{itemize}
+
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%   EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{EDUCATION}
 
 \textbf{Bachelor of Computer Engineering} \\
 Khandesh College Education Society, Jalgaon, Maharashtra \\
-GPA: 6.57/10 \hspace{0.5cm} \textcolor{lightgray}{\textit{May 2018}}
+GPA: 6.57/10 \newline {\textit{May 2018}}\\[0.4em]
 
 \textbf{Diploma in Computer Engineering} \\
 Gulabrao Deokar College, Jalgaon, Maharashtra \\
-Final Grade: 67.18\% \hspace{0.5cm} \textcolor{lightgray}{\textit{May 2013}}
-
-\textbf{Higher Secondary Certificate (HSC)} \\
-Dhanaji Nana Choudhary College, Jalgaon, Maharashtra \\
-Final Grade: 58.6\% \hspace{0.5cm} \textcolor{lightgray}{\textit{February 2008}}
-
-\textbf{Secondary School Certificate (SSC)} \\
-Raosaheb Rupchand Vidyalaya, Jalgaon, Maharashtra \\
-Final Grade: 69.60\% \hspace{0.5cm} \textcolor{lightgray}{\textit{March 2006}}
+Final Grade: 67.18\% \newline {\textit{May 2013}}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	CERTIFICATIONS
+%   CERTIFICATIONS
 %----------------------------------------------------------------------------------------
-\begin{rSection}{CERTIFICATIONS} 
+
+\newpage
+\begin{rSection}{CERTIFICATIONS}
 \begin{itemize}
-    \itemsep -3pt {} 
-    \item \href{https://www.udemy.com/certificate/UC-7dad647d-9892-40ce-a38e-29a6eec0a7e6/}{\textbf{iOS \& Swift - The Complete iOS App Development Bootcamp}}, Udemy - May 2020
-    \item \textbf{iOS App Development Design Patterns for Mobile Architecture}, Linkedin Learning - Dec 2022
-    \item \href{https://www.udemy.com/certificate/UC-e9bee7b7-80ef-4f80-9ee1-66978e4a3c7c/}{\textbf{Unit testing swift mobile app}} , Udemy - Sep 2023
-    \item \href{https://www.udemy.com/certificate/UC-f2ec7f74-ad15-47b1-a454-3f1aafada18a/}{\textbf{iOS \& Swift - MVVM,Combine,Snapkit,Snapshot/UI/Unit Tests}}, Udemy - Nov 2023
-    \item \textbf{Protocol oriented programming}, Mind luster - Nov 2023
-    \item \href{https://www.udemy.com/certificate/UC-98ad5b06-9010-43be-89f4-3453ede37470/}{\textbf{The Complete Flutter Development Bootcamp with Dart}}, Udemy - May 2024
- \end{itemize}
+    \itemsep -3pt
+    \item \href{https://www.udemy.com/certificate/UC-7dad647d-9892-40ce-a38e-29a6eec0a7e6/}{\textbf{iOS \& Swift - The Complete iOS App Development Bootcamp}}, Udemy -- May 2020
+    \item \textbf{iOS App Development Design Patterns for Mobile Architecture}, LinkedIn Learning -- Dec 2022
+    \item \href{https://www.udemy.com/certificate/UC-e9bee7b7-80ef-4f80-9ee1-66978e4a3c7c/}{\textbf{Unit Testing Swift Mobile App}}, Udemy -- Sep 2023
+    \item \href{https://www.udemy.com/certificate/UC-f2ec7f74-ad15-47b1-a454-3f1aafada18a/}{\textbf{iOS \& Swift - MVVM, Combine, SnapKit, Snapshot/UI/Unit Tests}}, Udemy -- Nov 2023
+    \item \textbf{Protocol Oriented Programming}, Mind Luster -- Nov 2023
+    \item \href{https://www.udemy.com/certificate/UC-98ad5b06-9010-43be-89f4-3453ede37470/}{\textbf{The Complete Flutter Development Bootcamp with Dart}}, Udemy -- May 2024
+\end{itemize}
 \end{rSection}
-%----------------------------------------------------------------------------------------
-%	Extra-Curricular Activities
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Extra-Curricular Activities} 
- Gaming, Music, Table Tennis
-\end{rSection}
-%----------------------------------------------------------------------------------------
-%	Languages
-%----------------------------------------------------------------------------------------
-\begin{rSection}{LANGUAGES}
-    
-     \textbf{English} - Fluent \hspace{0.5cm} 
-     \textbf{Hindi} - Fluent \hspace{0.5cm} 
-     \textbf{Marathi} - Native \hspace{0.5cm} 
 
+%----------------------------------------------------------------------------------------
+%   EXTRA-CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXTRA-CURRICULAR ACTIVITIES}
+Gaming, Music, Table Tennis
 \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{LANGUAGES}
+\textbf{English} -- Fluent \hspace{0.5cm}
+\textbf{Hindi} -- Fluent \hspace{0.5cm}
+\textbf{Marathi} -- Native
+\end{rSection}
+
 \end{document}
+```
